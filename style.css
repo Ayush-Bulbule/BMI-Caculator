@@ -1,0 +1,68 @@
+/*Primary red #fd4d5a */
+/*Primary yellow #ffdd58 */
+/*Primary green #67d896 */
+/*Primary blue #68d5d8 */
+.navbar {
+    background-color: hsla(356, 98%, 65%, 0.8);
+}
+
+.slide {
+    height: 300px;
+}
+
+#slide1 {
+    background: url("/images/s1.jpg") center center/cover;
+    background-repeat: no-repeat;
+
+
+}
+
+#slide-btn {
+    padding: 8px 28px;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 30px;
+    background-color: rgb(58, 231, 139);
+}
+
+
+#slide2 {
+    background-color: #97e1fe;
+}
+
+#slide3 {
+    color: white;
+    background-color: #8aa8b5;
+}
+
+#sec2 {
+    height: 100vh;
+    width: 100%;
+    background-color: #fd4d5a;
+}
+
+#sec1 {
+    height: 100vh;
+}
+
+.btn-cal {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 8px 60px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: #ff2130;
+}
+
+.btn-cal::active {
+    outline: none;
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
