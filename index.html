@@ -1,201 +1,225 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WellBeing+ - Your Path to a Healthier Life</title>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"
-        integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+    <!-- Google Fonts - Noto Sans  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome Icon -->
+    <script src="https://kit.fontawesome.com/a18501667c.js" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="style.css">
-    <title>Hello, world!</title>
+
+    <!-- Local Links -->
+    <link rel="shortcut icon" href="./images/favicon.ico" >
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark ">
-        <div class="container">
-            <a class="navbar-brand" href="#">Healthify</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <div class="form-check form-switch">
-                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
-                        </div>
-                    </li>
-                </ul>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="brand">
+                <img src="./images/logo.png" alt="logo">
+                <h3>WellBeing+</h3>
             </div>
+
+            <div class="nav-list">
+                <li class="nav-item"><a href="/">Home</a></li>
+                <li class="nav-item"><a href="#about-sec">About</a></li>
+                <li class="nav-item"><a href="#services-sec">Services</a></li>
+                <li class="nav-item"><a href="#contact-sec">Contact</a></li>
+                <button class="nav-btn">Calculate BMI</button>
+            </div>
+            <div id="mobile-nav-btn" class="nav-mobile-btn">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+        <div id="mobile-nav" class="mobile-nav-list">
+            <li class="nav-item"><a href="/">Home</a></li>
+            <li class="nav-item"><a href="#about-sec">About</a></li>
+            <li class="nav-item"><a href="#services-sec">Services</a></li>
+            <li class="nav-item"><a href="#contact-sec">Contact</a></li>
         </div>
     </nav>
 
-    <!-- Crousel -->
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div class="slide" id="slide1">
-                    <div class="slide-text mx-5 pt-5">
-                        <h1>A Healthy Outside <br>Starts from inside.</h1>
-                        <p>Get a smart Healthy plan personalized for you.</p>
-                        <a href="" class="mt-4" id="slide-btn">Get a Plan</a>
-                    </div>
-                </div>
+    <section id="hero-sec">
+        <div class="container hero-container">
+            <div class="hero-text">
+                <h1>Your Path to <span style="color: #14b8a6;">Healthier</span> Life!</h1>
+                <p>Enhance Your Well-Being with Personalized Health Solutions. Embrace a Healthier Lifestyle with
+                    WellBeing+. Empowering Your Journey to Optimal Health</p>
+                <button class="hero-btn">
+                    Explore
+                    <span class="explore-logo">
+                        <i class="fas fa-chevron-right"></i>
+                    </span>
+                </button>
             </div>
-            <div class="carousel-item">
-                <div class="slide d-flex" id="slide2">
-                    <div class="slide-text  p-5 mx-5">
-                        <h1>Balanced diet is a<br> Key of Helth</h1>
-                        <p>Eat balanced diet full of Nutrients which will Help to build your Helth.</p>
-                    </div>
-                    <img src="/images/s2.png" alt="" class="w-50">
-                </div>
+            <div class="hero-image">
+                <img src="./images/hero-health.gif" alt="Hero-health" srcset="">
             </div>
-            <div class="carousel-item">
-                <div class="slide d-flex" id="slide3">
-                    <div class="slide-text p-5 mx-5">
-                        <h1>Check Your Helth.</h1>
-                        <p>Get free helth checkup absolutely free!!.</p>
-                    </div>
-                    <img src="/images/slide.jpg" alt="" class="w-50">
-                </div>
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </a>
-    </div>
-
-    <!-- Section 1 -->
-    <section id="sec1">
-        <div class=" container mt-5 px-4 text-center">
-            <h2>What is BMI?</h2>
-            <p class="pt-3">Body Mass Index (BMI) is a person’s weight in kilograms divided by the square of height in
-                meters. A high
-                BMI can be an indicator of high body fatness. BMI can be used to screen for weight categories that may
-                lead to health problems but it is not diagnostic of the body fatness or health of an individual.</p>
-            <img src="/images/BMI.jpg" alt="">
         </div>
     </section>
 
-    <!-- section 2 -->
-    <section id="sec2">
-        <div class="container">
-            <h2 class="text-center text-light pt-5">Calculate Your BMI</h2>
-            <div class="card  mt-4 col-lg-8 col-md-8 col-sm-10 offset-lg-2 offset-sm-1">
-                <div class="card-header">
-                    <ul class="nav nav-tabs card-header-tabs">
-                        <li class="nav-item w-50">
-                            <a class="nav-link active text-uppercase text-bold text-center" aria-current="true"
-                                href="#standard" data-toggle="tab">Standard
-                                System</a>
-                        </li>
-                        <li class="nav-item w-50 ">
-                            <a class="nav-link text-center" href="#metric" data-toggle="tab">Metric System</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="tab-content">
-                    <div class="card-body tab-pane active" id="standard">
-                        <h5 class="card-title text-center">BMI online Calculator</h5>
-                        <form onsubmit="return false">
-                            <div class="mb-3 mt-3">
-                                <label class="form-label">Enter Your Height:</label>
-                                <div class="input-group mb-3">
-                                    <input type="number" id="feet" class="form-control" name="feet" placeholder="Feet">
-                                    <span class="input-group-text" id="basic-addon2">Feet</span>
-                                    <input type="number" id="inches" class="form-control ml-2" name="inches"
-                                        placeholder="inches">
-                                    <span class="input-group-text" id="basic-addon2">Inches</span>
-                                </div>
-                            </div>
-                            <label for="weight" class="form-label">Enter your Weight:</label>
-                            <div class="mb-3 input-group" id="weight">
-                                <input type="text" class="form-control" id="pounds" placeholder="pound">
-                                <span class="input-group-text" id="basic-addon2">Pounds</span>
-                            </div>
-                            <button class="btn-cal" id="btn-cal">Calculate</button>
-                            <p class="text-center">Your Result: <span id="result"> ??</span></p>
-                        </form>
+
+
+    <!-- About Us - Section -->
+
+    <section id="about-sec">
+        <div class="container about-container">
+
+            <div class="about-image">
+                <img src="./images/about.png" alt="About images">
+            </div>
+            <div class="about-text">
+
+                <h1 class="about-heading">
+                    Why Choose WellBeing+?
+                </h1>
+                <p>Choose WellBeing+ because we offer a comprehensive approach to health, addressing physical, mental,
+                    and
+                    emotional well-being. Our expert team of dedicated health professionals, including doctors,
+                    nutritionists, and fitness experts, provides personalized guidance to help you achieve your wellness
+                    goals. With cutting-edge technology and a focus on data privacy, we deliver seamless and secure
+                    health
+                    solutions. Join our community of like-minded individuals and embark on an empowering journey to
+                    optimal
+                    health with WellBeing+.</p>
+
+                <div class="counter-container">
+                    <div class="counter-item">
+                        <h3>500K+</h3>
+                        <p>Happy Users</p>
                     </div>
-                    <div class="card-body tab-pane" id="metric">
-                        <h5 class="card-title text-center">Calculate BMI in Metric</h5>
-                        <form onsubmit="return false">
-                            <div class="mb-3 mt-3">
-                                <label class="form-label">Enter Your Height:</label>
-                                <div class="input-group mb-3">
-                                    <input type="number" id="centim" class="form-control" placeholder="centimeter">
-                                    <span class="input-group-text" id="basic-addon2">Cm</span>
-                                </div>
-                            </div>
-                            <label for="weight" class="form-label">Enter your Weight:</label>
-                            <div class="mb-3 input-group" id="weight">
-                                <input type="number" class="form-control" id="kilog" placeholder="kilograms">
-                                <span class="input-group-text" id="basic-addon2">Kg</span>
-                            </div>
-                            <button class="btn-cal" id="cal2">Calculate</button>
-                            <p class="text-center mt-3">Your Result: <b id="result2"> ??</b></p>
-                        </form>
+                    <div class="counter-item">
+                        <h3>1000+</h3>
+                        <p>Health Services</p>
+                    </div>
+                    <div class="counter-item">
+                        <h3>98%</h3>
+                        <p>Satisfaction Rate</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Services Section -->
+
+    <section id="services-sec">
+        <div class="container services-container">
+            <h1 class="services-heading">Our Services</h1>
+            <div class="services-item-container">
+                <div class="services-item">
+                    <div class="services-item-image">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <div class="services-item-text">
+                        <h3>Health Checkup</h3>
+                        <p>Explore comprehensive health topics and learn about diet, exercise, mental health, stress
+                            management, and preventive care.</p>
+                    </div>
+                </div>
+                <div class="services-item">
+                    <div class="services-item-image">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <div class="services-item-text">
+                        <h3>BMI Calculator</h3>
+                        <p>Calculate your Body Mass Index (BMI) and receive personalized health assessments based on
+                            your age, gender, and lifestyle.</p>
+                    </div>
+                </div>
+                <div class="services-item">
+                    <div class="services-item-image">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <div class="services-item-text">
+                        <h3>Personalized Plans</h3>
+                        <p>Get customized health plans that cater to your individual needs and goals, including
+                            nutrition and exercise recommendations.</p>
+                    </div>
+                </div>
+                <div class="services-item">
+                    <div class="services-item-image">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <div class="services-item-text">
+                        <h3>Telehealth Services</h3>
+                        <p>Access virtual consultations with healthcare professionals from the comfort of your home,
+                            ensuring convenient and accessible healthcare.</p>
                     </div>
                 </div>
             </div>
         </div>
-
     </section>
 
-    <footer>
-        <p class="m-0">&copy; Site Created By Ayushsb</p>
+    <section id="contact-sec">
+        <div class="container contact-container">
+            <h1>We would love to hear from you!</h1>
+          
+            <form action="/" class="form-container">
+                    <div class="form-row">
+                        <div class="form-col">
+                            <input type="text" placeholder="First Name" name="fname" id="fname">
+                        </div>
+                        <div class="form-col">
+                            <input type="text" placeholder="Last Name" name="lname" id="lname">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-col">
+                            <input type="number" placeholder="Phone" name="phone" id="phone">
+                        </div>
+                        <div class="form-col">
+                            <input type="email" placeholder="Email" name="email" id="email">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <input type="text" placeholder="Subject" name="subject" id="subject">
+                    </div>
+                    <div class="form-row">
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                    </div>
+                    <input type="submit" value="Send Message">
 
+            </form>
+        </div>
+    </section>
+
+
+    <footer id="footer">
+        <div class="footer-container container">
+            <h1>WellBeing+</h1>
+            <div class="footer-list">
+                <li class="footer-item"><a href="/home">Home</a></li>
+                <li class="footer-item"><a href="#about-sec">About</a></li>
+                <li class="footer-item"><a href="/home">Services</a></li>
+                <li class="footer-item"><a href="/home">FAQ</a></li>
+                <li class="footer-item"><a href="/home">Contact</a></li>
+            </div>
+            <p>Website design and developed by <a href="https://github.com/Ayush-Bulbule">Ayush-Bulbule</a>
+                | Open for contributions
+            </p>
+            <p>See Leagy Version: <a href="https://bmi-app-ay-legacy.netlify.app/">BMI Calci</a></p>
+        </div>
     </footer>
 
 
-    <!-- Optional JavaScript; choose one of the two! -->
-    <script src="index.js"></script>
 
-    <!-- Option 1: Bootstrap Bundle with Popper.js -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"
-        integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD"
-        crossorigin="anonymous"></script>
-
-    <!-- Option 2: Separate Popper.js and Bootstrap JS
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.min.js" integrity="sha384-5h4UG+6GOuV9qXh6HqOLwZMY4mnLPraeTrjT5v07o347pj6IkfuoASuGBhfDsp3d" crossorigin="anonymous"></script>
-    -->
+    <!-- Scipt -->
+    <script src="./js/index.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,24 @@
+{
+  "services": [
+    {
+      "title": "Health and Wellness Information",
+      "description": "Explore comprehensive health topics and learn about diet, exercise, mental health, stress management, and preventive care.",
+      "icon": "fas fa-heartbeat"
+    },
+    {
+      "title": "BMI Calculator and Health Assessment",
+      "description": "Calculate your Body Mass Index (BMI) and receive personalized health assessments based on your age, gender, and lifestyle.",
+      "icon": "fas fa-calculator"
+    },
+    {
+      "title": "Personalized Health Plans",
+      "description": "Get customized health plans that cater to your individual needs and goals, including nutrition and exercise recommendations.",
+      "icon": "fas fa-user-md"
+    },
+    {
+      "title": "Telehealth Services",
+      "description": "Access virtual consultations with healthcare professionals from the comfort of your home, ensuring convenient and accessible healthcare.",
+      "icon": "fas fa-video"
+    }
+  ]
+}
