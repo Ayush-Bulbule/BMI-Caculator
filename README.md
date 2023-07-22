@@ -1,6 +1,6 @@
 # Wellbeing
 
-![Website Screenshot](.Screenshot 2023-07-22 124023.png)
+![Website Screenshot](./screen.png)
 
 ## Description
 
