@@ -55,7 +55,9 @@ section {
     align-items: center;
     justify-content: center;
 }
-
+.mobile-nav-btn,.mobile-nav{
+    display: none;
+}
 .nav-item {
     text-decoration: none;
     list-style: none;
