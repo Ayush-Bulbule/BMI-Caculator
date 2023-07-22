@@ -17,6 +17,7 @@
 
 
     <!-- Local Links -->
+    <link rel="shortcut icon" href="./images/favicon.ico" >
     <!-- CSS -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -31,13 +32,21 @@
             </div>
 
             <div class="nav-list">
-                <li class="nav-item"><a href="/home">Home</a></li>
-                <li class="nav-item"><a href="/home">About</a></li>
-                <li class="nav-item"><a href="/home">Services</a></li>
-                <li class="nav-item"><a href="/home">FAQ</a></li>
-                <li class="nav-item"><a href="/home">Contact</a></li>
+                <li class="nav-item"><a href="/">Home</a></li>
+                <li class="nav-item"><a href="#about-sec">About</a></li>
+                <li class="nav-item"><a href="#services-sec">Services</a></li>
+                <li class="nav-item"><a href="#contact-sec">Contact</a></li>
                 <button class="nav-btn">Calculate BMI</button>
             </div>
+            <div id="mobile-nav-btn" class="nav-mobile-btn">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+        <div id="mobile-nav" class="mobile-nav-list">
+            <li class="nav-item"><a href="/">Home</a></li>
+            <li class="nav-item"><a href="#about-sec">About</a></li>
+            <li class="nav-item"><a href="#services-sec">Services</a></li>
+            <li class="nav-item"><a href="#contact-sec">Contact</a></li>
         </div>
     </nav>
 
@@ -61,6 +70,156 @@
     </section>
 
 
+
+    <!-- About Us - Section -->
+
+    <section id="about-sec">
+        <div class="container about-container">
+
+            <div class="about-image">
+                <img src="./images/about.png" alt="About images">
+            </div>
+            <div class="about-text">
+
+                <h1 class="about-heading">
+                    Why Choose WellBeing+?
+                </h1>
+                <p>Choose WellBeing+ because we offer a comprehensive approach to health, addressing physical, mental,
+                    and
+                    emotional well-being. Our expert team of dedicated health professionals, including doctors,
+                    nutritionists, and fitness experts, provides personalized guidance to help you achieve your wellness
+                    goals. With cutting-edge technology and a focus on data privacy, we deliver seamless and secure
+                    health
+                    solutions. Join our community of like-minded individuals and embark on an empowering journey to
+                    optimal
+                    health with WellBeing+.</p>
+
+                <div class="counter-container">
+                    <div class="counter-item">
+                        <h3>500K+</h3>
+                        <p>Happy Users</p>
+                    </div>
+                    <div class="counter-item">
+                        <h3>1000+</h3>
+                        <p>Health Services</p>
+                    </div>
+                    <div class="counter-item">
+                        <h3>98%</h3>
+                        <p>Satisfaction Rate</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Services Section -->
+
+    <section id="services-sec">
+        <div class="container services-container">
+            <h1 class="services-heading">Our Services</h1>
+            <div class="services-item-container">
+                <div class="services-item">
+                    <div class="services-item-image">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <div class="services-item-text">
+                        <h3>Health Checkup</h3>
+                        <p>Explore comprehensive health topics and learn about diet, exercise, mental health, stress
+                            management, and preventive care.</p>
+                    </div>
+                </div>
+                <div class="services-item">
+                    <div class="services-item-image">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <div class="services-item-text">
+                        <h3>BMI Calculator</h3>
+                        <p>Calculate your Body Mass Index (BMI) and receive personalized health assessments based on
+                            your age, gender, and lifestyle.</p>
+                    </div>
+                </div>
+                <div class="services-item">
+                    <div class="services-item-image">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <div class="services-item-text">
+                        <h3>Personalized Plans</h3>
+                        <p>Get customized health plans that cater to your individual needs and goals, including
+                            nutrition and exercise recommendations.</p>
+                    </div>
+                </div>
+                <div class="services-item">
+                    <div class="services-item-image">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <div class="services-item-text">
+                        <h3>Telehealth Services</h3>
+                        <p>Access virtual consultations with healthcare professionals from the comfort of your home,
+                            ensuring convenient and accessible healthcare.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-sec">
+        <div class="container contact-container">
+            <h1>We would love to hear from you!</h1>
+          
+            <form action="/" class="form-container">
+                    <div class="form-row">
+                        <div class="form-col">
+                            <input type="text" placeholder="First Name" name="fname" id="fname">
+                        </div>
+                        <div class="form-col">
+                            <input type="text" placeholder="Last Name" name="lname" id="lname">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-col">
+                            <input type="number" placeholder="Phone" name="phone" id="phone">
+                        </div>
+                        <div class="form-col">
+                            <input type="email" placeholder="Email" name="email" id="email">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <input type="text" placeholder="Subject" name="subject" id="subject">
+                    </div>
+                    <div class="form-row">
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                    </div>
+                    <input type="submit" value="Send Message">
+
+            </form>
+        </div>
+    </section>
+
+
+    <footer id="footer">
+        <div class="footer-container container">
+            <h1>WellBeing+</h1>
+            <div class="footer-list">
+                <li class="footer-item"><a href="/home">Home</a></li>
+                <li class="footer-item"><a href="#about-sec">About</a></li>
+                <li class="footer-item"><a href="/home">Services</a></li>
+                <li class="footer-item"><a href="/home">FAQ</a></li>
+                <li class="footer-item"><a href="/home">Contact</a></li>
+            </div>
+            <p>Website design and developed by <a href="https://github.com/Ayush-Bulbule">Ayush-Bulbule</a>
+                | Open for contributions
+            </p>
+            <p>See Leagy Version: <a href="https://bmi-app-ay-legacy.netlify.app/">BMI Calci</a></p>
+        </div>
+    </footer>
+
+
+
+    <!-- Scipt -->
+    <script src="./js/index.js"></script>
 </body>
 
 </html>
