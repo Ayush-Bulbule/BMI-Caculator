@@ -55,8 +55,11 @@ section {
     align-items: center;
     justify-content: center;
 }
-.mobile-nav-btn,.mobile-nav{
-    display: none;
+.nav-mobile-btn{
+    display: none !important;
+}
+.mobile-nav-list{
+    display: none !important;
 }
 .nav-item {
     text-decoration: none;
