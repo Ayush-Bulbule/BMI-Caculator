@@ -495,6 +495,10 @@ select:focus {
 
     }
 
+.nav-mobile-btn{ 
+     display: block !important; 
+ }
+
     .nav-mobile-btn:active {
         outline: 2px solid #14b8a6;
     }
