@@ -496,7 +496,9 @@ select:focus {
     }
 
 .nav-mobile-btn{ 
-     display: block !important; 
+     display: flex !important; 
+align-items:center;
+justify-content:center;
  }
 
     .nav-mobile-btn:active {
